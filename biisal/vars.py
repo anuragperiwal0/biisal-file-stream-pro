@@ -8,14 +8,14 @@ from dotenv import load_dotenv
 load_dotenv()
 bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
 bisal_channel = "https://telegram.me/Movie_loverzz"
-bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+bisal_grp = "https://t.me/+FLXYlsb037cwNzE1"
 
 class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', ''))
     API_HASH = str(getenv('API_HASH', ''))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    name = str(getenv('name', 'Mlfiletolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
@@ -33,7 +33,7 @@ class Var(object):
     
     else:
         ON_HEROKU = False
-    FQDN = str(getenv('FQDN', 'BIND_ADRESS:PORT')) if not ON_HEROKU or getenv('FQDN', 'https://linear-suzette-aibottz-5a83a683.koyeb.app/') else APP_NAME+'.herokuapp.com'
+    FQDN = str(getenv('FQDN', 'BIND_ADRESS:PORT')) if not ON_HEROKU or getenv('FQDN', 'https://linear-suzette-aibottz-5a83a683.koyeb.app') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',True))
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
