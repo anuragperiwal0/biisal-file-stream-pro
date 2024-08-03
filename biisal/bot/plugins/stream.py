@@ -24,12 +24,12 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 msg_text ="""<b>‣ ʏᴏᴜʀ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ! 😎
 
 ‣ Fɪʟᴇ ɴᴀᴍᴇ : <i>{}</i>
-‣ Fɪʟᴇ ꜱɪᴢᴇ : {}
+‣ Fɪʟᴇ ꜱɪᴢᴇ : {} </b>
 
-🔻 𝗙𝗔𝗦𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗: <i>{}</i>\n\n
-🔺 𝗪𝗔𝗧𝗖𝗛 𝗢𝗡𝗟𝗜𝗡𝗘: <i>{}</i>\n\n
+🔻 𝗙𝗔𝗦𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗: <i>{}</i>\n
+🔺 𝗪𝗔𝗧𝗖𝗛 𝗢𝗡𝗟𝗜𝗡𝗘: <i>{}</i>
 
-‣ ɢᴇᴛ <a href="https://t.me/movie_loverzz">ᴍᴏʀᴇ ғɪʟᴇs</a></b> 🤡"""
+‣ ɢᴇᴛ <b>🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE TILL I DELETE </b> 🤡"""
 
 
 
